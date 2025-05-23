@@ -1,0 +1,116 @@
+python
+java
+c
+c++
+c#
+javascript
+typescript
+go
+rust
+php
+ruby
+kotlin
+swift
+bash
+html
+css
+react
+next.js
+node.js
+express.js
+angular
+vue.js
+django
+flask
+fastapi
+spring
+laravel
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+tensorflow
+keras
+pytorch
+huggingface
+nlp
+bert
+gpt
+transformers
+data visualization
+data analysis
+machine learning
+deep learning
+statistics
+computer vision
+opencv
+sql
+mysql
+postgresql
+mongodb
+firebase
+redis
+graphql
+api development
+rest api
+json
+jwt
+authentication
+authorization
+docker
+kubernetes
+ci/cd
+jenkins
+git
+github
+gitlab
+bitbucket
+postman
+kali linux
+burp suite
+owasp
+penetration testing
+cloud computing
+aws
+azure
+google cloud
+gcp
+linux
+ubuntu
+command line
+vs code
+intellij
+android
+flutter
+ios
+swiftui
+xcode
+testing
+unit testing
+integration testing
+selenium
+cypress
+junit
+pytest
+logging
+debugging
+agile
+scrum
+jira
+excel
+power bi
+tableau
+snowflake
+hadoop
+spark
+bigquery
+elasticsearch
+rabbitmq
+kafka
+redis
+data engineering
+data wrangling
+data cleaning
+data pipelines
+etl

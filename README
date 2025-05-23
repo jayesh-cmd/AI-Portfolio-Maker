@@ -1,0 +1,55 @@
+➡️ Turn your resume into a live portfolio site, powered by Python and NLP. 
+
+__Overview__ :-
+    This project reads a user's resume (in TXT or PDF format), extracts all the important details—name, contact, education, skills, projects—and generates a clean, modern portfolio website.
+    No manual website editing: Just upload your resume, and your site is ready!
+
+__Modules Used__ :-
+   > Python 3
+   > spaCy (NLP for name/entity extraction)
+   > Regex (for email, phone, and section parsing)
+   > Jinja2 + HTML/CSS (portfolio website generation)
+
+__How It Works__ :-
+   -> Text Extraction:
+   -> Reads your resume as plain text (TXT works best; PDF may need conversion).
+   -> Entity & Pattern Recognition:
+   -> Uses spaCy and regex to extract name, email, phone, education, skills, and projects.
+   -> Section Handling:
+   -> Custom logic to find education, skills, and project sections—even with different resume formats.
+   -> Portfolio Generation:
+   -> Fills a Jinja2 HTML template with your data for a personal, professional website.
+
+__Limitations__ ⚠️ :-
+
+    Resume format sensitivity:
+
+       -> Works best with clear sections and common layouts.
+       -> May miss fields or mix up sections on highly unusual resume designs.
+
+    PDF text extraction:
+
+       -> Tools like pdfplumber may cause spacing/word order issues (not fully reliable).
+
+    Not universal:
+
+       -> Handling “all” resume styles requires much more advanced parsing, sometimes only possible with commercial APIs.
+
+__Experience Of What I Learned 📚__ :- 
+
+        -> Real-world data (resumes!) is messy and hard to parse perfectly.
+
+        -> NLP and regex are powerful, but not magic—for ultimate flexibility, need ML-based models or paid APIs.
+
+        -> Building robust, error-tolerant code is as important as accuracy.
+
+__How To Use__ :-
+
+        > Place your resume as file.txt (or convert your PDF to TXT first).
+
+        > Run makejson.py to generate final.json.
+
+        > Start the portfolio website (Flask app or open the HTML if static).
+
+__I built this project as a personal challenge to automate portfolio creation and learn about real-world NLP. I’m always open to feedback, collaborations, or internship opportunities—let’s connect!__ ❤️
+

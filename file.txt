@@ -1,0 +1,31 @@
+
+-------PAGE - 1---------
+
+JAYESH VISHWAKARMA
+Indore, IN · jayeshvishwakarma6028@gmail.com · +91 6******* · https://www.linkedin.com/in/cmd-jayes h
+EdUCATION
+Acropolis Institute Of Technology And Research Indore
+Integrated Master Of Computer Application 2022 - 2027
+Gyan Ganga E.M.H.S School Harda
+Higher Secondary School Commerce 2021 - 2022
+SkILLS
+Programming : Python (NumPy, Pandas, Matplotlib, Scikit-learn)
+Machine Learning: Supervised & Unsupervised Learning, Feature Engineering
+Natural Language Processing (NLP): Text Processing, Sentiment Analysis
+Data Handling: Preprocessing, Model Evaluation, Dataset Management
+PROjECTS
+Speech Emotion Detection https://github.com/jayesh-cmd/Speech-Emotion-Detection
+I developed a model using the RAVDESS dataset to recognize human emotions from speech. The project
+involved implementing feature extraction techniques such as MFCC and training machine learning models to
+classify emotions like happy, sad, and angry.
+Fake News Detection https://github.com/jayesh-cmd/Fake-News-Detection
+I built a machine learning model to classify news articles as real or fake. I utilized NLP techniques such as
+TF-IDF vectorization and trained models using logistic regression and random forest to enhance accuracy in
+detecting misinformation.
+House Price Prediction https://github.com/jayesh-cmd/House-Price-Prediction
+I created a regression model to estimate house prices based on factors like location, size, and amenities. The
+project involved data preprocessing, feature scaling, and training the model using linear regression to generate
+reliable price predictions.
+AwaRDS
+Reel Competition
+Got an award By AITR In Reel Competition In Ardor 2024 2024
