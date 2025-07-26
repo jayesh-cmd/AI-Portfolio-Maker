@@ -1,3 +1,6 @@
+# In this script the informations are extracted roughly through entity-ruler and pipelines that will lose to extract important info from the cv sometimes
+# So firstly and importantly prefer the "Extracted_info_llm" so the information are extracted using llm that will more reliable
+
 import spacy
 import os
 import json

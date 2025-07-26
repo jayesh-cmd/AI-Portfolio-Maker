@@ -1,0 +1,55 @@
+{
+  "Name": "JAYESH VISHWAKARMA",
+  "Email": "jayeshvishwakarma6028@gmail.com",
+  "Phone": "+91 6264998382",
+  "Skills": [
+    "Programming: Python",
+    "ML/DL Frameworks: TensorFlow, Keras, scikit-learn, XGBoost, Neaural Networks",
+    "Generative AI & Transformers: BERT, BART, T5, Hugging Face Transformers, Sentence-Transformers",
+    "Computer Vision: YOLO, OpenCV, CNN, MediaPipe",
+    "Data Science & Visualization: NumPy, Pandas, Matplotlib, Seaborn",
+    "NLP Tools: NLTK, SpaCy",
+    "Deployment & Web Apps: FastAPI, Streamlit",
+    "Tools & Version Control: VS Code, Git, Github, Google Colab, Jupyter Notebook"
+  ],
+  "Projects": [
+    {
+      "title": "Resume Ranker AI",
+      "items": [
+        "Developed an AI-powered Resume Ranking app that scores resumes based on job description relevance using Sentence-BERT embeddings.",
+        "Built a backend REST API with FastAPI to handle PDF resume uploads, text extraction, and semantic similarity computation.",
+        "Integrated a simple HTML/CSS/JS frontend to collect input and display ranked results from the FastAPI backend.",
+        "Deployed the full-stack application on Render to provide a live, interactive demo for resume screening."
+      ]
+    },
+    {
+      "title": "AI Portfolio Maker (Auto Resume Site Generator)",
+      "items": [
+        "Built an AI-based tool to extract personal details, skills, education, and projects from plain text resumes.",
+        "Used spaCy and regex to identify structured data like name, email, phone number, and GitHub links.",
+        "Generated clean JSON outputs for use in automatically creating personal portfolio websites.",
+        "Designed logic to support flexible resume formats and improve compatibility with varying input styles."
+      ]
+    },
+    {
+      "title": "Speech Emotion Recognition",
+      "items": [
+        "Developed a machine learning model to detect human emotions from speech using the RAVDESS dataset.",
+        "Extracted MFCC (Mel-Frequency Cepstral Coefficients) features for accurate audio-based emotion classification.",
+        "Trained a Random Forest classifier with audio preprocessing to classify emotions like happy, sad, angry, etc.",
+        "Saved trained model for real-time emotion prediction from audio files."
+      ]
+    }
+  ],
+  "Education": {
+    "description": "Integrated Master of Computer Applications",
+    "title": "Integrated MCA",
+    "courseWork": [
+      "DBMS",
+      "System Design",
+      "Artificial Intelligence",
+      "Operating Systems",
+      "Computer Network"
+    ]
+  }
+}

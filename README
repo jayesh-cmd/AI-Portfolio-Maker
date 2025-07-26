@@ -1,11 +1,22 @@
-➡️ Turn your resume into a live portfolio site, powered by Python and NLP. 
+➡️ Turn your resume into a live portfolio site, powered by Python and NLP and LLM.
+
+__How To Use__ :-
+
+-> First paste the path your resume in "PDF_TO_TEXT.py" , After running you will get an "CV_EXTRACTED_INFO.txt" file
+-> Than paste the path of "CV_EXTRACTED_INFO.txt" in "Extracted_info_llm.py" , After running you will get "Extracted_Info.json"
+-> Than paste the path of "Extracted_Info.json" to "Final_MakeSite.py" , After running you will get "Here's_Your_Portfolio_Duh" Folder 
+-> In "Here's_Your_Portfolio_Duh" Folder You Will Get Your Portfolio Site in HTML Form , Here you gooo.........................
 
 __Overview__ :-
     This project reads a user's resume (in TXT or PDF format), extracts all the important details—name, contact, education, skills, projects—and generates a clean, modern portfolio website.
     No manual website editing: Just upload your resume, and your site is ready!
 
 __Modules Used__ :-
+   > LLM (model=llama3.2:latest_version)
+   > Ollama
+   > Langchain
    > Python 3
+   AND
    > spaCy (NLP for name/entity extraction)
    > Regex (for email, phone, and section parsing)
    > Jinja2 + HTML/CSS (portfolio website generation)
@@ -20,36 +31,5 @@ __How It Works__ :-
    -> Portfolio Generation:
    -> Fills a Jinja2 HTML template with your data for a personal, professional website.
 
-__Limitations__ ⚠️ :-
-
-    Resume format sensitivity:
-
-       -> Works best with clear sections and common layouts.
-       -> May miss fields or mix up sections on highly unusual resume designs.
-
-    PDF text extraction:
-
-       -> Tools like pdfplumber may cause spacing/word order issues (not fully reliable).
-
-    Not universal:
-
-       -> Handling “all” resume styles requires much more advanced parsing, sometimes only possible with commercial APIs.
-
-__Experience Of What I Learned 📚__ :- 
-
-        -> Real-world data (resumes!) is messy and hard to parse perfectly.
-
-        -> NLP and regex are powerful, but not magic—for ultimate flexibility, need ML-based models or paid APIs.
-
-        -> Building robust, error-tolerant code is as important as accuracy.
-
-__How To Use__ :-
-
-        > Place your resume as file.txt (or convert your PDF to TXT first).
-
-        > Run makejson.py to generate final.json.
-
-        > Start the portfolio website (Flask app or open the HTML if static).
-
-__I built this project as a personal challenge to automate portfolio creation and learn about real-world NLP. I’m always open to feedback, collaborations, or internship opportunities—let’s connect!__ ❤️
+__I built this project as a personal challenge to automate portfolio creation and learn about GenAI And real-world NLP. I’m always open to feedback, collaborations, or internship opportunities—let’s connect!__ ❤️
 
