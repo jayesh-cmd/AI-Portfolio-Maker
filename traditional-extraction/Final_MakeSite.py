@@ -5,11 +5,11 @@ import os
 from jinja2 import FileSystemLoader , Environment
 
 # Paste the path of json file here ----
-path = r"C:\Users\Lenovo\OneDrive\Desktop\Harry Python\CV PROJECTS\Ai_Portfolio_Maker\Extracted_Info.json"
+path = r"Ai_Portfolio_Maker\traditional-extraction\Extracted_Info.json"
 with open(path , "r") as f:
     data = json.load(f)
 
-temp_path = r"C:\Users\Lenovo\OneDrive\Desktop\Harry Python\CV PROJECTS\Ai_Portfolio_Maker\templates"
+temp_path = r"Ai_Portfolio_Maker\templates"
 env = Environment(loader = FileSystemLoader(temp_path))
 
 html_template = env.get_template("Portfolio.html.j2")

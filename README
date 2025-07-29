@@ -1,35 +1,42 @@
-➡️ Turn your resume into a live portfolio site, powered by Python and NLP and LLM.
+📄✨ AI Portfolio Generator
 
-__How To Use__ :-
+Turn your resume into a live portfolio site with Python + LLM/NLP magic.
+(Supports PDF/TXT → Auto-extraction → Beautiful HTML Portfolio)
 
--> First paste the path your resume in "PDF_TO_TEXT.py" , After running you will get an "CV_EXTRACTED_INFO.txt" file
--> Than paste the path of "CV_EXTRACTED_INFO.txt" in "Extracted_info_llm.py" , After running you will get "Extracted_Info.json"
--> Than paste the path of "Extracted_Info.json" to "Final_MakeSite.py" , After running you will get "Here's_Your_Portfolio_Duh" Folder 
--> In "Here's_Your_Portfolio_Duh" Folder You Will Get Your Portfolio Site in HTML Form , Here you gooo.........................
+🚀 How to Use
 
-__Overview__ :-
-    This project reads a user's resume (in TXT or PDF format), extracts all the important details—name, contact, education, skills, projects—and generates a clean, modern portfolio website.
-    No manual website editing: Just upload your resume, and your site is ready!
+Paste your resume path in PDF_TO_TEXT.py → Get CV_EXTRACTED_INFO.txt
+Feed the text file to Extracted_info_llm.py → Get structured Extracted_Info.json
+Run Final_MakeSite.py → Boom! 🎉 Find your portfolio in Here's_Your_Portfolio_Duh/
 
-__Modules Used__ :-
-   > LLM (model=llama3.2:latest_version)
-   > Ollama
-   > Langchain
-   > Python 3
-   AND
-   > spaCy (NLP for name/entity extraction)
-   > Regex (for email, phone, and section parsing)
-   > Jinja2 + HTML/CSS (portfolio website generation)
+🌟 Why This?
 
-__How It Works__ :-
-   -> Text Extraction:
-   -> Reads your resume as plain text (TXT works best; PDF may need conversion).
-   -> Entity & Pattern Recognition:
-   -> Uses spaCy and regex to extract name, email, phone, education, skills, and projects.
-   -> Section Handling:
-   -> Custom logic to find education, skills, and project sections—even with different resume formats.
-   -> Portfolio Generation:
-   -> Fills a Jinja2 HTML template with your data for a personal, professional website.
+Zero manual editing – Resume → Portfolio in 3 steps
+LLM + NLP hybrid – Smart extraction (handles messy formats)
+Modern HTML/CSS – Clean, mobile-friendly template
 
-__I built this project as a personal challenge to automate portfolio creation and learn about GenAI And real-world NLP. I’m always open to feedback, collaborations, or internship opportunities—let’s connect!__ ❤️
+⚙️ Tech Stack
 
+Extraction	Generation
+Ollama (Llama3)	Jinja2 HTML Templates
+spaCy (NLP)	CSS/Bootstrap
+Regex (patterns)	Python (backend)
+
+📂 Project Structure
+.
+├── PDF_TO_TEXT.py          # Step 1: Text extraction (PDF/TXT)
+├── Extracted_info_llm.py   # Step 2: LLM data extraction → JSON  
+├── Final_MakeSite.py       # Step 3: HTML generator  
+├── templates/              # Portfolio HTML/CSS  
+└── Here's_Your_Portfolio_Duh/  # Output folder  
+
+💡 Key Features
+
+✅ LLM-Powered Extraction – Better than rule-based NLP for messy resumes
+✅ Education/Skills/Projects Detection – No fixed format needed
+✅ Open-Source – Customize templates or extraction logic
+
+🤝 Contribute & Connect
+Issues/PRs welcome!
+
+Built with Python + ❤️ – https://in.linkedin.com/in/cmd-jayesh

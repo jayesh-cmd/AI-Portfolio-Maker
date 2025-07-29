@@ -7,7 +7,7 @@ import json
 import re
 from spacy.pipeline import EntityRuler
 
-file_text = r"C:\Users\Lenovo\OneDrive\Desktop\CV PROJECTS\file.txt"
+file_text = r"Ai_Portfolio_Maker\traditional-extraction\CV_EXTRACTED_INFO.txt"
 
 with open(file_text, "r", encoding="utf-8") as file:
     resume_text = file.read()
@@ -58,7 +58,7 @@ email = re.findall(r"[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}", resume_tex
 phone = re.findall(r"\+?\d[\d\s\-()]{10,}\d", resume_text)
 print(f"Email : {email} , Phone : {phone}")
 
-with open(r'C:\Users\Lenovo\OneDrive\Desktop\CV PROJECTS\Ai_Portfolio_Maker\Skills.txt' , 'r') as f:
+with open(r'Ai_Portfolio_Maker\traditional-extraction\Skills.txt' , 'r') as f:
      skills_ihave = set(line.strip().lower() for line in f)
 
 found_skills = [] # Stored All Skills From Resume
